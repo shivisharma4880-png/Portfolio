@@ -6,6 +6,7 @@ export interface Project {
   tagline?: string;
   caseStudyPath?: string;
   liveUrl?: string;
+  githubUrl?: string;
   /** Google Drive file ID for a demo video (opens in a modal) */
   videoId?: string;
   col1img1: string;
@@ -34,6 +35,7 @@ export const PROJECTS: Project[] = [
     tagline: 'AI-assisted teleconsultation from booking to e-prescription',
     caseStudyPath: '/projects/telehealth',
     liveUrl: 'https://telehealthapp.duckdns.org',
+    githubUrl: 'https://github.com/shivisharma4880-png/AI-Powered-Telehealth-Platform',
     col1img1: '/tele-13.png',
     col1img2: '/tele-12.png',
     col2img: '/tele-00.png',
