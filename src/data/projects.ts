@@ -48,6 +48,7 @@ export const PROJECTS: Project[] = [
     tagline: 'Machine-code trust layer for signed QR, traceability, and verification',
     caseStudyPath: '/projects/ki8-io',
     liveUrl: 'https://web-one-kappa-82.vercel.app/',
+    githubUrl: 'https://github.com/shivisharma4880-png/Ki8.io',
     col1img1: '/Ki8-QR- generator.png',
     col1img2: '/Ki8-Assets.png',
     col2img: '/Ki8-Main-Dashboard.png',
