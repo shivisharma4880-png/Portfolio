@@ -23,6 +23,7 @@ export const PROJECTS: Project[] = [
     tagline: 'Local AI co-pilot for high-yield LinkedIn job search',
     caseStudyPath: '/projects/smart-apply',
     videoId: '1tbZGx-43cwpja2Bk1kZjOnkPSVVPqRqd',
+    githubUrl: 'https://github.com/shivisharma4880-png/linkedin-smart-apply-ai',
     col1img1: '/smart-apply-search-job.png',
     col1img2: '/smart-apply-easy-apply.png',
     col2img: '/smart_apply_ai_poster.png',
