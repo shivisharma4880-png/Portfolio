@@ -105,6 +105,14 @@ function ProjectCard({ project, index, totalCards, onVideoClick }: ProjectCardPr
                 <LiveProjectButton />
               )}
             </div>
+            {project.liveNote ? (
+              <p
+                className="text-xs sm:text-sm text-[#D7E2EA] text-right leading-snug max-w-[18rem] mr-2 font-light"
+                style={{ opacity: 0.6 }}
+              >
+                {project.liveNote}
+              </p>
+            ) : null}
             {project.githubUrl ? (
               <a
                 href={project.githubUrl}

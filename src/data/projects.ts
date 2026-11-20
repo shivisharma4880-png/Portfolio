@@ -7,6 +7,8 @@ export interface Project {
   caseStudyPath?: string;
   liveUrl?: string;
   githubUrl?: string;
+  /** Short note shown next to the Live Project button (e.g. cold-start warning) */
+  liveNote?: string;
   /** Google Drive file ID for a demo video (opens in a modal) */
   videoId?: string;
   col1img1: string;
@@ -53,6 +55,18 @@ export const PROJECTS: Project[] = [
     col1img1: '/Ki8-QR- generator.png',
     col1img2: '/Ki8-Assets.png',
     col2img: '/Ki8-Main-Dashboard.png',
+  },
+  {
+    num: '04',
+    category: 'Personal',
+    name: "Shivi's Product Assistant Bot",
+    tagline: 'Catalogue-only fashion assistant from occasion and budget to checkout',
+    liveUrl: 'https://recommendation-chatbot-5q9f.onrender.com',
+    githubUrl: 'https://github.com/shivisharma4880-png/recommendation-chatbot',
+    liveNote: 'Hosted on a free server, so the first load may take up to a minute.',
+    col1img1: '/fashion-bot-01.png',
+    col1img2: '/fashion-bot-02.png',
+    col2img: '/fashion-bot-03.png',
   },
 ];
 
